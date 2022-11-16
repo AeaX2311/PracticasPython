@@ -1,0 +1,38 @@
+body {
+    background: rgb(77, 151, 129);
+}
+
+.formContainer {
+    display: flex;
+    height: 700px;
+    border-radius: 500px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 100px;
+}
+
+.formLeft {
+    background: rgb(240, 241, 243);
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formRight {
+    width: 40%;
+}
+
+.formio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    background: rgb(215, 238, 222);
+}
+
+td {
+     padding-top: 10px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Detalle persona</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <a href="{% url 'index' %}">Regresar</a>
+    <div class="view">
+        <h1>Detalle de {{persona.nombre}}</h1>
+    
+        <h2>
+            Id: {{persona.id}}
+        </h2>
+        <h2>
+            Nombre: {{persona.nombre}}
+        </h2>
+        <h2>
+            Apellido: {{persona.apellido}}
+        </h2>
+        <h2>
+            Correo electronico: {{persona.correoElectronico}}
+        </h2>
+    </div>
+</body>
+</html>
